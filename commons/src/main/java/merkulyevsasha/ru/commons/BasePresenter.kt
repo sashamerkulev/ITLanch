@@ -13,6 +13,5 @@ abstract class BasePresenter<T> {
     }
 
     fun onDestroy() {
-
     }
 }

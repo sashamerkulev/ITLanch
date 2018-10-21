@@ -1,4 +1,3 @@
 package merkulyevsasha.ru.order
 
-interface OrderView {
-}
+interface OrderView

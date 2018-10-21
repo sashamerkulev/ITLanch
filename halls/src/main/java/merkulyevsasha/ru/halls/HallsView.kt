@@ -1,4 +1,3 @@
 package merkulyevsasha.ru.halls
 
-interface HallsView {
-}
+interface HallsView
