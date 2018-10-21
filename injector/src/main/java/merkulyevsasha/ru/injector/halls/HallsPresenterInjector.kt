@@ -21,5 +21,4 @@ class HallsPresenterInjector(
     fun getPresenter(): HallsPresenter {
         return hallsPresenter
     }
-
 }

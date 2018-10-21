@@ -1,6 +1,7 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
+apply plugin: "org.jlleitschuh.gradle.ktlint"
 
 android {
     compileSdkVersion 28
@@ -43,4 +44,10 @@ kotlin {
     experimental {
         coroutines "enable"
     }
+}
+
+detekt {
+    toolVersion = "1.0.0.RC9.2"
+    input = files("src/main/java")
+    filters = ".*/resources/.*,.*/build/.*"
 }

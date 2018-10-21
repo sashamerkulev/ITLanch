@@ -9,5 +9,4 @@ class OrderRepositoryImpl(
     private val dbSource: DbSource,
     private val netDataSource: NetDataSource,
     private val preferences: Preferences
-) : HallsRepository {
-}
+) : HallsRepository

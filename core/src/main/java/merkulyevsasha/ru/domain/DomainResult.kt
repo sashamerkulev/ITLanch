@@ -17,5 +17,4 @@ sealed class DomainResult<L, R> {
         }
         return this
     }
-
 }

@@ -1,4 +1,3 @@
 package merkulyevsasha.ru.domain
 
-open class DomainException : Exception() {
-}
+open class DomainException : Exception()

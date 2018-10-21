@@ -1,4 +1,3 @@
 package merkulyevsasha.ru.router
 
-interface FragmentRouter {
-}
+interface FragmentRouter

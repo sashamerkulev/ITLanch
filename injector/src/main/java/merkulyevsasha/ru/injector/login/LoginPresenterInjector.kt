@@ -21,5 +21,4 @@ class LoginPresenterInjector(
     fun getPresenter(): LoginPresenter {
         return loginPresenter
     }
-
 }
