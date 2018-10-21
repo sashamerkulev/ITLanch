@@ -1,7 +1,7 @@
 package merkulyevsasha.ru.injector.halls
 
 import android.content.Context
-import merkulyevsasha.ru.domain.order.HallsInteractor
+import merkulyevsasha.ru.domain.halls.HallsInteractor
 import merkulyevsasha.ru.domain.halls.HallsInteractorImpl
 import merkulyevsasha.ru.router.ScreenRouter
 
