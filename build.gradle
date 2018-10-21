@@ -38,3 +38,14 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
+def ktfiles = files()
+def iterator = getChildProjects().keySet().iterator()
+while (iterator.hasNext()){
+    ktfiles += files(iterator.next() + "/src/main/java")
+}
+
+detekt {
+    toolVersion = "1.0.0.RC9.2"
+    input = ktfiles
+    filters = ".*/resources/.*,.*/build/.*"
+}
