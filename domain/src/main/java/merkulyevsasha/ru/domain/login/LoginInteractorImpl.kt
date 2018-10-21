@@ -27,8 +27,6 @@ class LoginInteractorImpl(
             return result
         } catch (e: DomainException) {
             return DomainResult.Right(e)
-        } catch (e: Exception) {
-            return result
         }
     }
 }
