@@ -1,3 +1,3 @@
-package merkulyevsasha.ru.domain.order
+package merkulyevsasha.ru.domain.halls
 
 interface HallsRepository

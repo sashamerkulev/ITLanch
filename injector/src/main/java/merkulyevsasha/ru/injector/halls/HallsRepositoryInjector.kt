@@ -1,7 +1,7 @@
 package merkulyevsasha.ru.injector.halls
 
 import android.content.Context
-import merkulyevsasha.ru.domain.order.HallsRepository
+import merkulyevsasha.ru.domain.halls.HallsRepository
 import merkulyevsasha.ru.injector.DataInjector
 import merkulyevsasha.ru.repository.order.OrderRepositoryImpl
 
