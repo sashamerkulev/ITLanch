@@ -16,11 +16,16 @@ class LoginRepositoryImpl(
 ) : LoginRepository {
 
     override fun saveToken(token: String) {
-        sleep(100)
+        sleep(FAKE_TIME_TO_SAVE)
     }
 
     override fun login(login: String, password: String): DomainResult<LoginModel, DomainException> {
-        sleep(500)
+        sleep(FAKE_TIME_TO_LOGIN)
         return DomainResult.Left(LoginModel(login, password))
+    }
+
+    companion object {
+        private const val FAKE_TIME_TO_SAVE = 100L
+        private const val FAKE_TIME_TO_LOGIN = 500L
     }
 }
