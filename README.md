@@ -1,4 +1,3 @@
-
 # Multi module single activity concept project
 
 - Core - Java module contains declarations such as interfaces and data classes (no dependencies)
@@ -8,7 +7,6 @@
 - Repository - Android module facades Data Android module from Domain module and it also contains packages according to features (depends on Core, Data)
 - Login, Order, Halls - Android module contains feature specific code such as view, presenter and etc (depends on Core, Commons)
 - Injector - Android module creates feature classes such as presenters, interactors and repository according to features and it also contains packages according to features (depends on Core, Commons, Data, Repository, DoOmain, Login, Halls, Order)
-
 
 License
 -------
